@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bestony 的书评搜索</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  </head>
+  <body>
+
+  <section class="section">
+    <div class="container">
+      <div class="has-text-centered">
+        <img src="https://postimg.aliavv.com/newmbp/z4vxb.png" alt="" width="150">
+        <h1 class="title has-text-weight-bold " style="padding:20px;">
+        书评搜索
+        </h1>
+        <p class="subtitle ">
+          个人书评搜索引擎
+        </p>
+        <script>
+          (function() {
+            var cx = '015460718854873601070:ygsbxzbiph8';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:searchbox></gcse:searchbox>
+      </div>
+      <div>
+        <gcse:searchresults></gcse:searchresults>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
